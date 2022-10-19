@@ -9,7 +9,7 @@ public class Operation implements Bank {
     public void deposit() {
         System.out.println("Положить вклад");
     }
-    public static void main(String[] Args){
+    public static void main(String[] Args) {
         Operation operation = new Operation();
         operation.credit();
         operation.deposit();
